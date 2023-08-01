@@ -1,3 +1,5 @@
+import { FaRegPaperPlane } from 'react-icons/fa';
+
 const ContactMe = () => {
 
   const contactEmail = "sergio.lopez.souto@gmail.com"
@@ -11,12 +13,10 @@ const ContactMe = () => {
             I am always open to chat, helping out and open to new projects. Feel free to send me a message!
         </p>
 
-      <a href={`mailto:${contactEmail}`}>
-        <button
-          className="mt-8 rounded-md bg-slate-900 p-3 font-medium text-white shadow-md shadow-slate-800/50 transition-all hover:-translate-y-1 hover:bg-slate-800 text-center"
-          aria-label="Contact me button"
-        >
-          Email me
+      <a href={`mailto:${contactEmail}`} target="_blank" rel="noopener noreferrer">
+        <button className="flex items-center gap-2 bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded mt-8">
+          <FaRegPaperPlane />
+          Send me an Email
         </button>
       </a>
     </div>  
