@@ -3,7 +3,7 @@ const ContactMe = () => {
   const contactEmail = "sergio.lopez.souto@gmail.com"
 
   return (
-    <div className="mt-[10rem] flex flex-col items-center justify-center w-11/12 md:w-1/2">
+    <div className="my-10 flex flex-col items-center justify-center w-11/12 md:w-1/2">
         <h2 className="mb-8 mt-10 text-5xl font-bold tracking-tight text-slate-700 text-center">
         Contact Me
         </h2>
