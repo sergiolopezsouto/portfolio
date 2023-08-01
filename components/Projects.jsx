@@ -1,6 +1,7 @@
 import { projects } from '@/projects';
 import ProjectCard from "./ProjectCard"
 
+
 const Projects = () => {
 
   return (

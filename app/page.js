@@ -8,13 +8,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between px-20 py-0">
       <Main />
-      <hr />
       <Skills />
-      <hr />
       <Projects />
-      <hr />
       <ContactMe />
-      <hr />
       <Footer />
     </main>
   );

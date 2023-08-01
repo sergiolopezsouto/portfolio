@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { FaPlay, FaCode } from 'react-icons/fa';
 
+
 const ProjectCard = (props) => {
   return (
     <div className="rounded-lg border bg-white shadow-md transition-all hover:-translate-y-1">
