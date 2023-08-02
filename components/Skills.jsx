@@ -5,7 +5,7 @@ import { SiPython, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiTailwindc
 const Skills = () => {
   return (
     <div className="my-10 overflow-hidden">
-      <div className="flex justify-center flex-wrap gap-4 mt-20 animate-slide">
+      <div className="flex justify-center flex-wrap gap-4 mt-20 animate-slide mx-0">
         <span className="m-3 inline-block text-gray-500 hover:text-black">
           <SiPython size={50} />
         </span>
