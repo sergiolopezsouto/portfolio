@@ -25,7 +25,7 @@ const Main = () => {
                 </h1>
 
                 <h3 className="text-center text-[1.6rem] font-light tracking-tight text-center px-10">
-                    I am a Full Stack Developer with a passion for coding and problem-solving based in Spain.
+                    I am a Full Stack Developer with a passion for coding and problem-solving based in Spain 🇪🇸
                 </h3>
             </div>
 
