@@ -24,17 +24,17 @@ To run this project you need to have [Node.js](https://nodejs.org/) installed.
 
 Clone this repository and install the dependencies with npm.
 
-\`\`\`bash
-git clone https://github.com/yourusername/portfolio.git
+```bash
+git clone https://github.com/sergiolopezsouto/portfolio.git
 cd portfolio
 npm install
-\`\`\`
+```
 
 ## Running in Development Mode
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -42,10 +42,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 To run the application in production mode, you first need to create a production build with `npm run build`, then you can start the server with `npm run start`.
 
-\`\`\`bash
+```bash
 npm run build
 npm run start
-\`\`\`
+```
 
 ## License
 
