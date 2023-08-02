@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin, FaRegPaperPlane } from 'react-icons/fa';
 const Main = () => {
 
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center my-10 mx-10">
+    <div className="flex flex-col lg:flex-row justify-between items-center mx-10">
 
         <div className="flex flex-col items-center justify-center">
             <div className="relative mb-10 mt-[4rem] block h-[15rem] w-[15rem] items-center justify-center lg:mt-[8rem] lg:h-[20rem] lg:w-[20rem]">
@@ -20,15 +20,16 @@ const Main = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center">
-                <h1 className="mb-10 bg-gradient-to-b from-slate-400 to-slate-900 bg-clip-text text-7xl font-bold tracking-tight text-transparent text-center px-15">
-                    Hi, I am Sergio!
+                <h1 className="mb-10 bg-gradient-to-r from-blue-400 to-purple-900 bg-clip-text text-7xl font-bold tracking-tight text-transparent text-center px-15 leading-snug pb-2">
+                    Hello, I&apos;m Sergio!
                 </h1>
-                {/* <h1 className="mb-8 mt-10 text-5xl font-bold tracking-tight text-slate-700 text-center">Hi, I am Sergio!</h1> */}
 
                 <h3 className="text-center text-[1.6rem] font-light tracking-tight text-center px-10">
                     I am a Full Stack Developer with a passion for coding and problem-solving based in Spain.
                 </h3>
             </div>
+
+
 
             <div className="flex gap-4 mt-8">
                 <a href="https://www.linkedin.com/in/sergiolopezsouto" target="_blank" rel="noopener noreferrer">
