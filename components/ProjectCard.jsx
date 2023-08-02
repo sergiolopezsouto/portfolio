@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
                 <button className="flex items-center gap-1 bg-gray-500 hover:bg-gray-700 text-white py-1 px-2 rounded transition duration-300 ease-in-out">
                     <FaCode /> Code
                 </button>
-                </a>
+            </a>
         </div>
     </div>
   );

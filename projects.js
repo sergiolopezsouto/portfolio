@@ -1,9 +1,9 @@
-import project1 from "./assets/avatar.jpg";
-import project2 from "./assets/avatar.jpg";
-import project3 from "./assets/avatar.jpg";
-import project4 from "./assets/avatar.jpg";
-import project5 from "./assets/avatar.jpg";
-import project6 from "./assets/avatar.jpg";
+import project1 from "./assets/project-covers/letsgonna.png";
+import project2 from "./assets/project-covers/flappybird.png";
+import letsgonna from "./assets/project-covers/letsgonna.png";
+import flappybird from "./assets/project-covers/flappybird.png";
+import project5 from "./assets/project-covers/letsgonna.png";
+import project6 from "./assets/project-covers/flappybird.png";
 
 export const projects = [
   {
@@ -21,18 +21,18 @@ export const projects = [
     codeLink: "https://github.com/sergiolopezsouto/",
   },
   {
-    title: "Project 3",
+    title: "Lets Gonna App",
     description: "description",
-    image: project3,
-    demoLink: "https://github.com/sergiolopezsouto/",
+    image: letsgonna,
+    demoLink: "https://lets-events-app.netlify.app/",
     codeLink: "https://github.com/sergiolopezsouto/",
   },
   {
-    title: "Project 4",
-    description: "description",
-    image: project4,
-    demoLink: "https://github.com/sergiolopezsouto/",
-    codeLink: "https://github.com/sergiolopezsouto/",
+    title: "Flappy Bird Clone",
+    description: "Only for computer.",
+    image: flappybird,
+    demoLink: "https://sergiolopezsouto.github.io/flappybird-ironhack",
+    codeLink: "https://github.com/sergiolopezsouto/flappybird-ironhack",
   },
   {
     title: "Project 5",
