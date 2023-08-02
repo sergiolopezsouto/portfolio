@@ -31,8 +31,8 @@ export const projects = [
     title: "SaaS AI Summarizer",
     description: "description",
     image: summarizerAI,
-    demoLink: "https://github.com/sergiolopezsouto",
-    codeLink: "https://github.com/sergiolopezsouto",
+    demoLink: "openaisummarizer.vercel.app",
+    codeLink: "https://github.com/sergiolopezsouto/summarizerAI",
   },
   {
     title: "Lets Gonna App",
