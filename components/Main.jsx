@@ -43,6 +43,7 @@ const Main = () => {
                         GitHub
                     </button>
                 </a>
+                {/* TODO: change link to the blog  */}
                 <a href="mailto:sergio.lopez.souto@gmail.com" target="_blank" rel="noopener noreferrer">
                     <button className="flex items-center gap-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
                         <FaRegPaperPlane />
@@ -52,10 +53,9 @@ const Main = () => {
             </div>
         </div>
 
-
-        <div className="hidden lg:pt-[5rem] lg:ml-20 lg:block">
+        {/* <div className="hidden lg:pt-[5rem] lg:ml-20 lg:block">
             <Cube />
-        </div>
+        </div> */}
 
     </div>
   );
