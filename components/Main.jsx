@@ -53,9 +53,10 @@ const Main = () => {
             </div>
         </div>
 
-        {/* <div className="hidden lg:pt-[5rem] lg:ml-20 lg:block">
+
+        <div className="hidden lg:pt-[5rem] lg:ml-20 lg:block">
             <Cube />
-        </div> */}
+        </div>
 
     </div>
   );

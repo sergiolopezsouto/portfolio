@@ -1,7 +1,7 @@
 import unknown from "./assets/project-covers/unknown.jpeg";
 import project2 from "./assets/project-covers/flappybird.png";
 import project5 from "./assets/project-covers/letsgonna.png";
-import project6 from "./assets/project-covers/flappybird.png";
+import summarizerAI from "./assets/project-covers/summarizerAI.png";
 import letsgonna from "./assets/project-covers/letsgonna.png";
 import flappybird from "./assets/project-covers/flappybird.png";
 
@@ -28,9 +28,9 @@ export const projects = [
     codeLink: "https://github.com/sergiolopezsouto",
   },
   {
-    title: "Project 6",
+    title: "SaaS AI Summarizer",
     description: "description",
-    image: project6,
+    image: summarizerAI,
     demoLink: "https://github.com/sergiolopezsouto",
     codeLink: "https://github.com/sergiolopezsouto",
   },
