@@ -18,7 +18,7 @@ export const projects = [
     description: "SaaS...",
     image: project2,
     demoLink: "https://github.com/sergiolopezsouto",
-    codeLink: "https://github.com/sergiolopezsouto",
+    codeLink: "https://github.com/sergiolopezsouto/genius-AI",
   },
   {
     title: "Project 5",
@@ -28,7 +28,7 @@ export const projects = [
     codeLink: "https://github.com/sergiolopezsouto",
   },
   {
-    title: "SaaS AI Summarizer",
+    title: "AI Summarizr",
     description: "SaaS...",
     image: summarizerAI,
     demoLink: "https://ai-summarizr.vercel.app/",
