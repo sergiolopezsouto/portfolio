@@ -18,7 +18,6 @@ const Main = () => {
           <h1 className="mb-5 bg-gradient-to-b from-amber-400 to-orange-600 bg-clip-text text-7xl font-bold tracking-tight text-transparent text-center px-15 leading-snug pb-2">
             Hello, I&apos;m Sergio!
           </h1>
-
           <h3 className="mb-5 text-center text-[1.6rem] font-light tracking-tight text-center px-10">
             Full Stack Developer based in Spain 🇪🇸
           </h3>
