@@ -1,32 +1,32 @@
 import unknown from "./assets/project-covers/unknown.jpeg";
-import project2 from "./assets/project-covers/flappybird.png";
-import project5 from "./assets/project-covers/letsgonna.png";
+import project4 from "./assets/project-covers/unknown.jpeg";
+import project5 from "./assets/project-covers/unknown.jpeg";
 import summarizerAI from "./assets/project-covers/summarizerAI.png";
 import letsgonna from "./assets/project-covers/letsgonna.png";
 import flappybird from "./assets/project-covers/flappybird.png";
 
 export const projects = [
-  {
-    title: "Coming soon...",
-    description: "Working in new projects.",
-    image: unknown,
-    demoLink: "https://github.com/sergiolopezsouto",
-    codeLink: "https://github.com/sergiolopezsouto",
-  },
-  {
-    title: "Genius AI",
-    description: "SaaS...",
-    image: project2,
-    demoLink: "https://github.com/sergiolopezsouto",
-    codeLink: "https://github.com/sergiolopezsouto/genius-AI",
-  },
-  {
-    title: "Project 5",
-    description: "...",
-    image: project5,
-    demoLink: "https://github.com/sergiolopezsouto",
-    codeLink: "https://github.com/sergiolopezsouto",
-  },
+  // {
+  //   title: "Coming soon...",
+  //   description: "Working in new projects.",
+  //   image: unknown,
+  //   demoLink: "https://github.com/sergiolopezsouto",
+  //   codeLink: "https://github.com/sergiolopezsouto",
+  // },
+  // {
+  //   title: "Project 5",
+  //   description: "...",
+  //   image: unknown,
+  //   demoLink: "https://github.com/sergiolopezsouto",
+  //   codeLink: "https://github.com/sergiolopezsouto",
+  // },
+  // {
+  //   title: "Project 4",
+  //   description: "...",
+  //   image: unknown,
+  //   demoLink: "https://github.com/sergiolopezsouto",
+  //   codeLink: "https://github.com/sergiolopezsouto",
+  // },
   {
     title: "AI Summarizr",
     description: "SaaS...",
