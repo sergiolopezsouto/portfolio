@@ -10,8 +10,8 @@ const ProjectCard = (props) => {
         src={props.image}
         alt="project preview image"
         layout="responsive"
-        width={525}
-        height={320}
+        width={925}
+        height={620}
       />
 
       <div className="p-4">
