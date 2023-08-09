@@ -7,10 +7,10 @@ import { FaGithub, FaLinkedin, FaRegPaperPlane } from 'react-icons/fa';
 const Main = () => {
 
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center mx-10">
+    <div className="flex flex-col lg:flex-row justify-between items-center mx-5">
 
         <div className="flex flex-col items-center justify-center">
-            <div className="relative mb-10 mt-[4rem] block h-[15rem] w-[15rem] items-center justify-center lg:mt-[8rem] lg:h-[20rem] lg:w-[20rem]">
+            <div className="relative mb-10 mt-[4rem] block h-[15rem] w-[15rem] items-center justify-center lg:mt-[5rem] lg:h-[20rem] lg:w-[20rem]">
                 <Image
                     src={avatar}
                     className="rounded-[3rem]"
