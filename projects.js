@@ -1,6 +1,3 @@
-import unknown from "./assets/project-covers/unknown.jpeg";
-import project4 from "./assets/project-covers/unknown.jpeg";
-import project5 from "./assets/project-covers/unknown.jpeg";
 import summarizerAI from "./assets/project-covers/summarizerAI.png";
 import letsgonna from "./assets/project-covers/letsgonna.png";
 import flappybird from "./assets/project-covers/flappybird.png";
@@ -28,7 +25,7 @@ export const projects = [
   //   codeLink: "https://github.com/sergiolopezsouto",
   // },
   {
-    title: "AI Summarizr",
+    title: "AI Summarizer",
     description: "SaaS...",
     image: summarizerAI,
     demoLink: "https://ai-summarizr.vercel.app/",
