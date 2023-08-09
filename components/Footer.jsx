@@ -24,7 +24,7 @@ const Footer = () => {
       <p className="mt-4 w-11/12 text-center">
           © Copyright {year} {" "}
           <a href="https://github.com/sergiolopezsouto" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">
-          Sergio López Souto
+          Sergio Lopez Souto
           </a>
           {" "} ~ All rights reserved.
       </p>
