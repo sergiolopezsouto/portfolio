@@ -30,7 +30,7 @@ const Main = () => {
             </div>
 
 
-            <div className="flex gap-4 mt-10">
+            {/* <div className="flex gap-4 mt-10">
                 <a href="https://www.linkedin.com/in/sergiolopezsouto" target="_blank" rel="noopener noreferrer">
                     <button className="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         <FaLinkedin />
@@ -43,14 +43,15 @@ const Main = () => {
                         GitHub
                     </button>
                 </a>
-                {/* TODO: change link to the blog  */}
+                TODO: change link to the blog
                 <a href="mailto:sergio.lopez.souto@gmail.com" target="_blank" rel="noopener noreferrer">
                     <button className="flex items-center gap-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
                         <FaRegPaperPlane />
                         Email
                     </button>
                 </a>
-            </div>
+            </div> */}
+            
         </div>
 
 
