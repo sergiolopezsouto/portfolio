@@ -1,5 +1,5 @@
 import Image from "next/image";
-import avatar from "@/assets/avatar.jpg"
+import avatar from "@/assets/avatar.webp"
 import Cube from "./Cube";
 import { FaGithub, FaLinkedin, FaRegPaperPlane } from 'react-icons/fa';
 
@@ -7,10 +7,10 @@ import { FaGithub, FaLinkedin, FaRegPaperPlane } from 'react-icons/fa';
 const Main = () => {
 
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center mx-5">
+    <div className="flex flex-col lg:flex-row justify-between items-center mx-10">
 
         <div className="flex flex-col items-center justify-center">
-            <div className="relative mb-10 mt-[4rem] block h-[15rem] w-[15rem] items-center justify-center lg:mt-[5rem] lg:h-[20rem] lg:w-[20rem]">
+            <div className="relative mb-10 mt-[5rem] block h-[15rem] w-[15rem] items-center justify-center lg:mt-[5rem] lg:h-[20rem] lg:w-[20rem]">
                 <Image
                     src={avatar}
                     className="rounded-[3rem]"
@@ -20,11 +20,11 @@ const Main = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center">
-                <h1 className="mb-5 bg-gradient-to-r from-blue-400 to-purple-900 bg-clip-text text-7xl font-bold tracking-tight text-transparent text-center px-15 leading-snug pb-2">
+                <h1 className="mb-5 bg-gradient-to-r from-blue-400 to-purple-900 bg-clip-text text-5xl md:text-7xl font-bold tracking-tight text-transparent text-center px-5 md:px-10 leading-snug pb-2">
                     Hello, I&apos;m Sergio!
                 </h1>
 
-                <h3 className="mb-5 text-center text-[1.6rem] font-light tracking-tight text-center px-10">
+                <h3 className="mb-5 text-center text-[1.6rem] font-light tracking-tight text-center px-5 md:px-10">
                     I am a Full Stack Developer with a passion for coding and problem-solving based in Spain 🇪🇸
                 </h3>
             </div>
