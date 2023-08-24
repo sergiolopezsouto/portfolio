@@ -1,11 +1,20 @@
-@keyframes slide {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+.skills-list {
+  display: flex;
+  gap: 1rem; /* Ajusta el espacio entre los iconos según lo desees */
+  overflow: hidden;
+  white-space: nowrap; /* Evita que los elementos se envuelvan */
 }
 
-.animate-slide {
-  animation: slide 10s linear infinite;
-  display: inline-block;
-  white-space: nowrap;
+.animate-slide-infinite {
+  animation: slide-infinite 20s linear infinite;
 }
 
+@keyframes slide-infinite {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
