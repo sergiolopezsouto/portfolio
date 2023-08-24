@@ -5,7 +5,7 @@ import './Skills.css'; // Asegúrate de tener este archivo CSS
 
 const Skills = () => {
   return (
-    <div className="my-20 overflow-hidden">
+    <div className="my-10 py-10 overflow-hidden">
       <div className="skills-list animate-slide-infinite">
         <span className="m-3 inline-block text-gray-500 hover:text-black">
           <SiPython size={50} />
