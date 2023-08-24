@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { SiPython, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiExpress, SiMysql, SiPostgresql, SiMongodb, SiGit } from 'react-icons/si';
-import './Skills.css'; // Asegúrate de tener este archivo CSS
+// import './Skills.css'; 
 
 const Skills = () => {
   return (
