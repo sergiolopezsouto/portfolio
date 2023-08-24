@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaRegPaperPlane } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="flex pt-10 w-screen justify-center bg-gradient-to-b from-slate-200">
+    <div className="flex pt-20 w-screen justify-center bg-gradient-to-b from-slate-200">
       <a
         href="https://www.linkedin.com/in/sergiolopezsouto"
         target="_blank"
